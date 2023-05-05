@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+<link href="bdportfoliocss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table>
+<tbody>
+<tr>
+<td id="header"><h1>Bhumi's Portfolio Website</h1></td>
+</tr>
+	
+<tr>
+<td id="nav"><nav><a href="Base.html"> Home</a>
+<a href="About_Me.html"> About_Me</a> 
+<a href="contactme.html"> Contact</a> 
+<a href="examples.html"> Examples</a>
+</nav></td>
+</tr>
+	
+<tr>
+<td>
+<form action="contact.html" method="post">
+		
+<fieldset>
+<legend>Contact Information</legend>
+	
+<label> First Name
+<input type="text">
+</label>
+	
+<label> Last Name
+<input type="text">
+</label>
+	
+<label> Phone Number
+<input type="tel">
+</label>
+	
+<label>Email
+<input type="email">
+</label>
+	
+<label>Message</label>
+<textarea></textarea>
+
+<input type="submit" class="submit" value="Submit">
+
+</fieldset>
+		
+</form>
+</td>
+</tr>
+
+<tr>
+<td id="footer">Last updated on 
+<!-- #BeginDate format:Am1 -->May 1st, 2023<!-- #EndDate --></td>
+</tr>
+	
+</tbody>
+</table>
+</body>
+</html>

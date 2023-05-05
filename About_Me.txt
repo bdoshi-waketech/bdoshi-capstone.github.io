@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>About_Me</title>
+<link href="bdportfoliocss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table>
+<tbody>
+<tr>
+<td id="header">
+<h1>Bhumi's Portfolio Website</h1></td>
+</tr>
+	
+<tr>
+<td><nav>
+<a href="Base.html"> Home</a> 
+<a href="About_Me.html">About_Me</a>
+<a href="contact.html"> Contact </a>
+<a href="examples.html">Examples</a>
+</nav></td>
+</tr>
+
+<tr>
+<td>My name is Bhumika Doshi, most of my family preferred to call me Bhumi. This is my first semester at Wake Technical Community College. I am currently taking this course within the IT – Cybersecurity program and hope to eventually receive an associate degree. I have previously done my Master in Business Administration in London and I joined Wake Tech and started this course to get a better future in the IT industry.<br></td>
+</tr>
+
+<tr>
+<td>I enjoy:<br><ul>
+<li> Spending quality time with family (Kids and husband )</li>
+<li> Watching movies</li>
+<li> I like Travelling</li>
+<li> Cook food for my Kids</li>
+<li> Painting </li></ul></td>
+</tr>
+
+<tr>
+<td> After I came here I realize there is so much scope in IT Industry and if I learn Web designing, it will help to build my carrier. After joining Wake Tech I agree I made a good choice. I enjoyed during my all classes and I am happy and excited to learn new.
+</td>
+</tr>
+	
+<tr>
+<td><img class="aboutimgs " src="assets/women-hanging-out.jpg" alt="Group of women hanging out"><img class="aboutimg" src="assets/woman-watching-tv.jpg" alt="Woman watching TV"><img class="aboutimg" src="assets/yarn-knitting.jpg" alt="Box of yarn and knitting needles with knitting on them"><img class="aboutimg" src="assets/woman-making-card.jpg" alt="Woman handmaking a card at a table"></td>
+</tr>
+	
+<tr>
+<td id="footer">Last updated on 
+<!-- #BeginDate format:Am1 -->April 30, 2023<!-- #EndDate --></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

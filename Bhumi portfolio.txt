@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bhumi's Portfolio Website</title>
+<meta name="description" content=" Bhumi's Portfolio was created to showcase what I have learned in CTI-110 this Spring semester at Wake Tech">
+<meta name="keywords" content="web design, CTI-110-4836 portfolio">
+<link href="bdportfoliocss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table>
+<tbody>
+<tr>
+<td id="header">
+<h1>Bhumi's Portfolio Website</h1></td>
+</tr>
+<tr>
+<td id="nav">
+<nav>
+<a href="index.html">Home</a> 
+<a href="about.html">About Me</a> <a href="contactme.html">Contact</a> 
+<a href="examples.html">Examples</a></nav></td>
+</tr>
+	
+<tr>
+ <td><table class="contenttable">
+  <tbody>
+    <tr>
+      <td> Hello and welcome to my personal portfolio website. I am excited to introduce myself and showcase my progress in learning how to design and code websites.</td>
+    //  <td><img src="assets/Carlyportrait.jpg" alt="Portait of Bhumi ="portrait"></td>
+    </tr>
+  </tbody>
+</table>
+  </td>
+</tr>
+
+<tr>
+<td id="footer">Last updated on 
+<!-- #BeginDate format:Am1 -->May 1st, 2023<!-- #EndDate --></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
