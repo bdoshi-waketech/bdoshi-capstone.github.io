@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Decor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: courier, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Portfolio</h1>
+  <p>A <b>responsive</b> website created by Bhumi.</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="#">Services</a>
+  <a href="#">Photo Gallry of My Work</a>
+  <a href="#" class="right">Contact US</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of Work:</h5>
+    <div class="fakeimg" style="height:200px;">Image
+    <img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork.jpg" Style="width:100px;height:100px">
+    </div><p>I love my work and make my clients to be happy..</p>
+	  <h3>Always make sure that they have their dream home.</h3>
+	  <p>Lorem ipsum dolor sit ame.</p>
+	</div><br>
+    
+    
+    
+    
+    <div class="fakeimg" style="height:150px;">
+    <img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork1.jpg" Style="width:100px;height:100px">My Work 1</div><br>
+    
+    <div class="fakeimg" style="height:150px;">
+    <img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork2.jpg" Style="width:100px;height:100px">My Work 2</div><br>
+    <div class="fakeimg" style="height:150px;">     
+    <img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork3.jpg" Style="width:100px;height:100px">
+    
+     My Work 3</div>
+  </div>
+  <div class="main">
+    <h2>Cleint Blog</h2>
+    <h5>Happy Cleint, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image<img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork4.jpg" Style="width:100px;height:100px"></div></div>
+	</div>
+	<br>
+    <p>My Vision..</p>
+    <p>Improve your growth mindset and  Be more proactive.
+Learn to understand yourself and  Be persistent despite obstacles.
+Learn to accept your limits and Learn how to make effective decisions.
+Practice gratitude and stay open-minded to new opportunities.
+Recreate your work-life balance andstart good habits.
+Improve your financial management skills and Develop time management skills.</p>
+    <br>
+    <h2>Cleint Blog</h2>
+    <h5>Happy Cleint, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image<img src="file://C://Users//Bhumika Doshi//Documents//Dreamweaver assignments//MyWork5.jpg" Style="width:100px;height:100px"></div></div>
+    <p>My Moto..</p>
+    <p>I need is a true expression of my work, combining images and videos of  architecture and design. I have to keep updating with my list of current projects and exhibits   so visitors are always informed of the duo’s latest happenings. Additionally, an About section shares a bit about their story, creating a personal connection between me and my potential customers.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h3>Footer</h3>
+</div>
+
+</body>
+</html>
