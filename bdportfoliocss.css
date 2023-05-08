@@ -1,9 +1,7 @@
 @charset "utf-8";
-
 body {
 	background-color: #3cb371;
 }
-
 td {
 	text-align: left;
 
@@ -13,7 +11,7 @@ a {
 	color: #0000ff;
 }
 li {
-	list-style-type: circle;
+	list-style-type: square;
 	vertical-align: baseline;
 	text-indent: 30px;
 }
@@ -34,8 +32,6 @@ nav {
 	text-align: center;
 	word-spacing: 20px;
 }
-
-
 #footer {
 	text-align: center;
 }
@@ -47,16 +43,12 @@ nav {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
-
 div {
 	margin-bottom: 5px;
-
 }
-
 input, label {
 	display: block
 }
-
 fieldset {
 	border: thin dashed #FF8B9F;
 }
