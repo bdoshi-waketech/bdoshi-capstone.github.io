@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	background-color: #3cb371;
+	background-color: "MediumSeaGreen";
 }
 
 td {
@@ -13,12 +13,12 @@ a {
 	color: #0000ff;
 }
 li {
-	list-style-type: circle;
+	list-style-type: square;
 	vertical-align: baseline;
 	text-indent: 30px;
 }
 h1 {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Sans-serif;
 	font-size: x-large;
 	text-align: center;
 }
