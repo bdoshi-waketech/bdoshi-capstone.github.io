@@ -1,7 +1,9 @@
 @charset "utf-8";
+
 body {
-	background-color: #3cb371;
+	background-color: rgba(0,0,255,0.3);
 }
+
 td {
 	text-align: left;
 
@@ -11,20 +13,20 @@ a {
 	color: #0000ff;
 }
 li {
-	list-style-type: square;
+	list-style-type: circle;
 	vertical-align: baseline;
 	text-indent: 30px;
 }
 h1 {
-	font-family: Consolas, "Courier New";
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	font-size: x-large;
 	text-align: center;
 }
 table {
 	width: 700px;
-	border: 3px solid #ff0000;
+	border: 3px solid rgba(255,0,0,0.3);
 	height: auto;
-	background-color:#ee82ee;
+	background-color:rgba(255, 0, 0, 0.6);
 	margin-left: auto;
     margin-right: auto;
 }
@@ -32,6 +34,8 @@ nav {
 	text-align: center;
 	word-spacing: 20px;
 }
+
+
 #footer {
 	text-align: center;
 }
@@ -43,12 +47,16 @@ nav {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
 div {
 	margin-bottom: 5px;
+
 }
+
 input, label {
 	display: block
 }
+
 fieldset {
 	border: thin dashed #FF8B9F;
 }
